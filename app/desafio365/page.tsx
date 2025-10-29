@@ -1,6 +1,6 @@
-import RequireAuth from "@/components/RequireAuth";
-import ChallengeQuickAdd from "@/components/ChallengeQuickAdd";
-import Leaderboard from "@/components/Leaderboard";
+import RequireAuth from "../../components/RequireAuth";         // <-- relativo
+import ChallengeQuickAdd from "../../components/ChallengeQuickAdd";
+import Leaderboard from "../../components/Leaderboard";
 
 export const dynamic = "force-dynamic";
 
