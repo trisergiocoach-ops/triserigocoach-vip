@@ -1,5 +1,5 @@
 "use client";
-import { supabase } from "@/lib/supabaseClient";
+import { supabase } from "../lib/supabaseClient"; // <-- relativo
 import { useEffect, useState } from "react";
 
 type Row = { user_id: string; points: number; rank_name: string | null };
