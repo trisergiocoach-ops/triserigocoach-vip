@@ -1,5 +1,5 @@
 "use client";
-import { supabase } from "@/lib/supabaseClient";
+import { supabase } from "../lib/supabaseClient"; // <-- relativo
 import { useState } from "react";
 
 const RULES = [
