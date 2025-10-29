@@ -1,5 +1,5 @@
 "use client";
-import { supabase } from "@/lib/supabaseClient";
+import { supabase } from "../lib/supabaseClient"; // <-- relativo
 import { useEffect, useState } from "react";
 
 export default function RequireAuth({ children }: { children: React.ReactNode }) {
